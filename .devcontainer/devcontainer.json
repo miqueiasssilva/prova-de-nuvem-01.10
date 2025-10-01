@@ -1,0 +1,16 @@
+{
+  "name": "Receitas Rápidas e Fáceis - Night Theme",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.liveserver",
+        "formulahendry.code-runner",
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "ms-vscode.live-server",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
+  },
+  "forwardPorts": [5500]
+}
