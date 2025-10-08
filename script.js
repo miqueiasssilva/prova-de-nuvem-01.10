@@ -6,7 +6,7 @@
 function ehPalindromo(texto) {
 if (!texto) return false;
 // Normaliza o texto: remove espaços, pontuação e acentos, e converte para minúsculas.
-const textoNormalizado = texto.replace(/[^a-z0-9]/g, '');
+const textoNormalizado = texto.toLowerCase().replace(/[^a-z0-9]/g, '');
 // Inverte o texto normalizado e compara com o original.
 const textoInvertido = textoNormalizado.split('').reverse().join('');
 return textoNormalizado === textoInvertido;
