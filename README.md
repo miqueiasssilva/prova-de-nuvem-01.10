@@ -1,2 +1,3 @@
-# prova-de-nuvem-01.10
-- miqueias sales.
+# teste de Palindromo.
+- miqueias sales. 
+- dev nuvem.
